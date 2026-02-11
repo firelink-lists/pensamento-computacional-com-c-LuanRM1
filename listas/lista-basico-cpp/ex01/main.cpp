@@ -18,9 +18,10 @@ using namespace std;
 int main() {
     string nome;
     
-    // TODO: Leia o nome do usuário
+
+    getline(cin, nome);
     
-    // TODO: Exiba a saudação personalizada
+    cout << "Ola, " << nome << "!";
     
     return 0;
 }
